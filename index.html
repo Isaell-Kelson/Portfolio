@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <div class="logo-container">
+          <div class="logo-img-container">
+            <img
+              src="https://media.licdn.com/dms/image/D4D03AQHg6Vp3N9HXpQ/profile-displayphoto-shrink_800_800/0/1683587550257?e=2147483647&v=beta&t=pSMdjempM_v21ANysIt6DcKfZk7n0NfqLMVYw5F8w5A"
+              width="30px"
+              alt="my-photo"
+              class="logo-img-container"
+            />
+          </div>
+          <span class="name-logo">Isaell Kelson</span>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section-h">
+        <h1>Olá, me chamo ISAELL KELSON</h1>
+        <p>
+          Este é meu portfólio, onde mostro uma variedade de projetos
+          desafiadores, demonstrando minhas habilidades em front-end e back-end.
+          Estou comprometido em criar soluções inovadoras e eficientes para
+          resolver problemas complexos.
+        </p>
+        <div class="btn"><a href="#projects">PROJETOS</a></div>
+      </section>
+
+      <section class="section-about-me">
+        <h2>SOBRE MIM</h2>
+        <p class="frase-about">Um pouco sobre mim e minhas habilidades</p>
+
+        <div id="about" class="about-me-content">
+          <div>
+            <h3>O dev por trás da tela . . .</h3>
+            <p class="paragraph" style="margin-bottom: 10px">
+              Olá, meu nome é Isaell Kelson, sou desenvolvedor FullStack, tenho
+              27 anos e moro em Paulista - PE, Brasil. Atualmente estou cursando
+              o bacharelado em Sistemas de Informação.
+            </p>
+            <p class="paragraph" style="margin-bottom: 10px">
+              Minha paixão por resolver desafios complexos impulsiona meu
+              constante aprendizado e aprimoramento. Estou comprometido em
+              oferecer qualidade e eficiência em todas as etapas do
+              desenvolvimento, do front-end ao back-end. Vamos colaborar e
+              transformar ideias em realidade. Sinta-se à vontade para entrar em
+              contato comigo.
+            </p>
+            <a class="btn contact" href="#contact" style="margin-top: 30px"
+              >CONTATO</a
+            >
+          </div>
+
+          <div>
+            <h3>HARD SKILLS</h3>
+            <ul>
+              <li>
+                <img src="./assets/icons8-javascript.svg" class="icon" alt="" />
+              </li>
+              <li>
+                <img src="./assets/icons8-node-js.svg" class="icon" alt="" />
+              </li>
+              <li>
+                <img src="./assets/icons8-html.svg" class="icon" alt="" />
+              </li>
+              <li><img src="./assets/icons8-css.svg" class="icon" alt="" /></li>
+              <li>
+                <img src="./assets/icons8-my-sql.svg" class="icon" alt="" />
+              </li>
+              <li><img src="./assets/icons8-git.svg" class="icon" alt="" /></li>
+              <li>
+                <img src="./assets/icons8-github.svg" class="icon" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section-about-me abc">
+        <h2>PROJETOS</h2>
+        <p>Desenvolvendo o Futuro, Projeto por Projeto</p>
+        <div class="test-principal">
+          <ul>
+            <li>
+              <img src="./assets/computador-desktop.png" alt="" />
+            </li>
+            <a href=""></a>
+          </ul>
+          <div class="projects-column">
+            <h3>Project 1</h3>
+            <p class="paragraph-projects">
+              Aqui se encontrará a Descrição do projeto 1
+            </p>
+            <div class="btn-teste"><a href="">Teste</a></div>
+          </div>
+        </div>
+        <div class="test-principal">
+          <ul>
+            <li>
+              <img src="./assets/computador-desktop.png" alt="" />
+            </li>
+            <a href=""></a>
+          </ul>
+          <div class="projects-column">
+            <h3>Project 2</h3>
+            <p class="paragraph-projects">
+              Aqui se encontrará a Descrição do projeto 2
+            </p>
+            <div class="btn-teste"><a href="">Teste</a></div>
+          </div>
+        </div>
+        <div class="test-principal">
+          <ul>
+            <li>
+              <img src="./assets/computador-desktop.png" alt="" />
+            </li>
+            <a href=""></a>
+          </ul>
+          <div class="projects-column">
+            <h3>Project 3</h3>
+            <p class="paragraph-projects">
+              Aqui se encontrará a Descrição do projeto 3
+            </p>
+            <div class="btn-teste"><a href="">Teste</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-contact-me">
+        <h2>CONTATO</h2>
+        <p>Fale comigo!</p>
+        <form
+          name="form-port"
+          accept-charset="utf-8"
+          action="https://formspree.io/f/xyyqpqod"
+          method="POST"
+        >
+          <div class="form-group">
+            <label for="full-name">Nome</label>
+            <input
+              name="name"
+              type="text"
+              placeholder="Digite seu nome"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email-adress">E-mail</label>
+            <input
+              placeholder="Digite seu email"
+              name="_replyto"
+              type="email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem</label>
+            <textarea
+              placeholder="Escreva uma mensagem"
+              name="_subject"
+              id="message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+          </div>
+          <div class="btn-contact">
+            <input type="submit" value="enviar" id="submit-button" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-logo">
+          <img src="./assets/nerd.jpg" alt="Logo" />
+          <h1>Isaell Kelson</h1>
+          <h3>Developer FullStack</h3>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li><a href="#home">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projects">Serviços</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Siga-me</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/Isaell-Kelson"
+                ><img src="./assets/github-ico.png" alt="Facebook"
+              /></a>
+            </li>
+            <li>
+              <a href="https://br.linkedin.com/in/isaell-kelson-8667a1251"
+                ><img src="./assets/linkedin-ico.png" alt="Twitter"
+              /></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/isaell_kelson/"
+                ><img src="./assets/insta-ico.png" alt="Instagram"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2023 Isaell Kelson. Todos os direitos reservados.
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
