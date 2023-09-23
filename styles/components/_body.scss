@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr 200px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    font-size: 18px;
+}

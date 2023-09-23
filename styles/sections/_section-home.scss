@@ -1,0 +1,56 @@
+.section-h {
+    background-color: #854d00;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23FF9B49'/%3E%3Cstop offset='1' stop-color='%23FF0000'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='24' height='24' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23854D00' cx='12' cy='12' r='12'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.1'/%3E%3C/svg%3E");
+    background-size: cover;
+    background-position: center;
+    padding: 15% 5%;
+    align-items: center;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 50px;
+    text-align: center;
+    color: white;
+  }
+  
+  .section-h p {
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 1.7;
+    margin: 0px 10rem;
+  }
+  
+  .section-h > h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: 600;
+  }
+  
+  .btn {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .btn {
+    background: var(--black);
+    color: #fff;
+    padding: 1.2rem 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+    margin: 0 auto;
+  }
+  
+  a.contact {
+    background: rgb(240, 237, 237);
+    color: var(--black);
+  }
+  
+  .btn:hover {
+    transform: translateY(-5px);
+  }

@@ -1,0 +1,106 @@
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  body {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr 200px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    font-size: 18px;
+  }
+  
+  
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  :root {
+    --paragraph: #fefefe;
+    --orange: #854d00;
+    --black: #333131;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    background-color: var(--black);
+    color: #fff;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    height: 90px;
+  }
+  
+  nav > ul {
+    display: flex;
+  }
+  
+  nav > ul a {
+    display: block;
+    padding: 35px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    transition: all 0.3s ease-in-out;    
+  }
+  
+  nav > ul a:hover {
+    background-color: #ff4a23;
+    color: #fff;
+  }
+  
+  header .logo-img-container {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #020202;
+    border-radius: 50%;
+    margin-right: 15px;
+    overflow: hidden;
+  }
+  
+  header .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+
+
+  .menu-icon {
+    display: none; /* Ocultar o ícone de menu por padrão em telas maiores */
+    cursor: pointer;
+  }
+
+  /* Estilos para os links de navegação */
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}

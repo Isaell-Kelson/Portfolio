@@ -1,0 +1,44 @@
+#projects h3 {
+    color: var(--black);
+    padding: auto;
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  #projects .paragraph-projects {
+    color: var(--black);
+    font-size: 1.1rem;
+    font-weight: 250;
+    line-height: 1.6;
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
+  
+    text-align: center;
+  }
+  
+  #projects .btn-teste {
+    text-align: center;
+    position: relative;
+    width: 150px;
+    margin-top: 15px;
+    background: var(--black);
+    color: #fff;
+    padding: 1.2rem 1.5rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s;
+    line-height: 1.2;
+  }
+  
+  .btn-teste:hover {
+    transform: translateY(-5px);
+  }

@@ -1,0 +1,17 @@
+@use "global";
+
+@use "./sections/section-home";
+
+@use "./sections/section-about-me";
+
+@use "./sections/section-projects";
+
+@use "./sections/section-contact";
+
+@use "./components/header";
+
+@use "./components/body";
+
+@use "./components/footer";
+
+@use "mobile";
