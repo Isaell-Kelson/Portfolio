@@ -1,2 +1,2 @@
 # Portfolio
- Meu site/portfolio criado usando HTML5 e CSS3
+ Meu site/portfolio criado usando HTML5 e Javascript e SASS
