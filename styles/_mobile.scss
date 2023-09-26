@@ -10,7 +10,7 @@
   }
   .section-h p {
     font-size: 1rem;
-    margin: 0; /* Remova a margem horizontal nos parágrafos para evitar estouro */
+    margin: 0; 
   }
   .menu-icon {
     display: block;
@@ -21,7 +21,7 @@
     flex-direction: column;
     background-color: #333;
     position: absolute;
-    top: 90px; /* Aumente o valor para evitar sobreposição com o cabeçalho */
+    top: 90px; 
     right: 0;
     left: 0;
     z-index: 1;
