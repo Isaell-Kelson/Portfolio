@@ -26,10 +26,8 @@ a {
   }
   
   header {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+    position: fixed;   
+    width: 100%;
     z-index: 2;
     background-color: var(--black);
     color: #fff;
@@ -38,11 +36,11 @@ a {
     justify-content: space-between;
     align-items: center;
     font-weight: 700;
-    height: 90px;
+    height: 90px;    
   }
   
   nav > ul {
-    display: flex;
+    display: flex;   
   }
   
   nav > ul a {
@@ -51,12 +49,13 @@ a {
     font-size: 1.2rem;
     font-weight: 500;
     color: #fff;
-    transition: all 0.3s ease-in-out;    
+    transition: all 0.3s ease-in-out;   
+       
   }
   
   nav > ul a:hover {
     background-color: #ff4a23;
-    color: #fff;
+    color: #fff;    
   }
   
   header .logo-img-container {

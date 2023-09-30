@@ -35,10 +35,10 @@
   .menu-icon.active {
     display: none;
   }
-  /* Ajuste a largura dos campos de entrada de texto do formulário de contato */
+  
   input[type="text"],
   input[type="email"],
   textarea {
-    width: 100%; /* Defina a largura para ocupar 100% da largura disponível */
+    width: 100%; 
   }
 }
