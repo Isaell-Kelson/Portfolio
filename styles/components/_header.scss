@@ -36,14 +36,15 @@ a {
     justify-content: space-between;
     align-items: center;
     font-weight: 700;
-    height: 90px;    
+    height: 90px; 
+    z-index: 1;     
   }
   
   nav > ul {
     display: flex;   
   }
   
-  nav > ul a {
+  nav > ul a {    
     display: block;
     padding: 35px 20px;
     font-size: 1.2rem;
