@@ -13,7 +13,7 @@ Este é o repositório do meu site portfolio, onde apresento meu trabalho como d
 
 - Apresentação de projetos e trabalhos anteriores.
 - Detalhes sobre minhas habilidades e experiência.
-- Formulário de contato para oportunidades de colaboração.
+- Formulário de contato para oportunidades.
 
 
 ## Como Executar o Projeto Localmente
