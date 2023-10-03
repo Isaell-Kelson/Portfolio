@@ -38,7 +38,7 @@ Se você gostaria de contribuir para este projeto, sinta-se à vontade para abri
 
 Este projeto está sob a licença [MIT](LICENSE.md).
 
-## Review
+## Preview
 
 ![](./assets/page/p1.png)
 
